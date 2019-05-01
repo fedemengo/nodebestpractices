@@ -1,12 +1,13 @@
 ---
 name: TRANSLATION
 about: Basic template
-title: "[SECTION NUMBER]"
+title: "[SECTION NAME]"
 labels: ''
 assignees: ''
+projects: 'Translation'
 
 ---
 
-[SECTION NUMBER]
+Translate [SECTION NUMBER]
 
 - [ ] Has **Read more**

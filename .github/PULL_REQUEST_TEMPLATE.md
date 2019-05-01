@@ -1,11 +1,3 @@
----
-name: TRANSLATION PR
-about: Basic template
-title: "Complete [SECTION NUMBER]"
-labels: ''
-assignees: ''
-
----
 
 Complete translation of [SECTION NUMBER] close [ISSUE NUMBER]
 
@@ -16,5 +8,5 @@ Complete translation of [SECTION NUMBER] close [ISSUE NUMBER]
 - [ ] Translate **TL;DR** on `README.italian.md`
 
 - [ ] Has **Read more**
-	- [ ] Translate **Read more** on `section/[SECTION CATEGORY]/[SECTION NAME].md`
+	- [ ] Translate **Read more** and create `section/[SECTION CATEGORY]/[SECTION NAME].italian.md`
 
