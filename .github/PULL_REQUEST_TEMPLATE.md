@@ -8,5 +8,6 @@ Complete translation of [SECTION NUMBER] close [ISSUE NUMBER]
 - [ ] Translate **TL;DR** on `README.italian.md`
 
 - [ ] Has **Read more**
-	- [ ] Translate **Read more** and create `section/[SECTION CATEGORY]/[SECTION NAME].italian.md`
+	- [ ] Create `section/[SECTION CATEGORY]/[SECTION NAME].italian.md` if necessary and update links on `README.italian.md`
+	- [ ] Translate **Read more**
 
