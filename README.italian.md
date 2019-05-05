@@ -42,21 +42,21 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 **1. Stai leggendo decine dei migliori articoli riguardo Node.js -** questa repository è un riassunto curato delle migliori pratiche e contenuti per Node.js, scritti da diversi collabatori  
 
-**2. È la piu grande raccolta del suo tipo e cresce ogni settimana -** al momento vengono presentati più 80 migliori pratiche, linee guida sullo stile e consigli sull'architettura. Nuove issues e pull requests vengono create ogni giorni per mantenere questa raccolta aggiornata. Ci farebbe molto piacere il tuo contributo per rimuovere errori nel codice, aiutare con le traduzioni o per suggerire nuove idee. Puoi trovare le nostre [linee guida di scrittura qui](/.operations/writing-guidelines.italian.md)
+**2. È la più grande raccolta del suo tipo e cresce ogni settimana -** al momento vengono presentati più 80 migliori pratiche, linee guida sullo stile e consigli sull'architettura. Nuove issues e pull requests vengono create ogni giorni per mantenere questa raccolta aggiornata. Ci farebbe molto piacere il tuo contributo per rimuovere errori nel codice, aiutare con le traduzioni o per suggerire nuove idee. Puoi trovare le nostre [linee guida di scrittura qui](/.operations/writing-guidelines.italian.md)
 
-**3. Most best practices have additional info -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
+**3. La maggior parte delle pratiche elencate hanno informazioni aggiuntive -** molte voci includono un link **🔗Per sapere di più** che fornisce più dettagli con esempi di codice, citazioni da blog specializzati e molto altro.
 
 <br/><br/>
 
-## Table of Contents
+## Tabella dei contenuti
 
-1.  [Project Structure Practices (5)](#1-project-structure-practices)
-2.  [Error Handling Practices (11) ](#2-error-handling-practices)
-3.  [Code Style Practices (12) ](#3-code-style-practices)
-4.  [Testing And Overall Quality Practices (10) ](#4-testing-and-overall-quality-practices)
-5.  [Going To Production Practices (18) ](#5-going-to-production-practices)
-6.  [Security Practices (25)](#6-security-best-practices)
-7.  [Performance Practices (1) (In Progress️ ✍️)](#7-performance-best-practices)
+1.  [Strutturare Del Progetto (5)](#1-project-structure-practices)
+2.  [Gestione Degli Errori (11) ](#2-error-handling-practices)
+3.  [Stile Di Codice (12) ](#3-code-style-practices)
+4.  [Testing E Qualità Generale (10) ](#4-testing-and-overall-quality-practices)
+5.  [Fase Di Rilascio/Produzione (18) ](#5-going-to-production-practices)
+6.  [Sicurezza (25)](#6-security-best-practices)
+7.  [Prestazioni (1) (In Sviluppo ✍️)](#7-performance-best-practices)
 
 <br/><br/>
 
@@ -1005,10 +1005,9 @@ All statements above will return false if used with `===`
 
 <br/><br/><br/>
 
-# Milestones
+# Obbietivi
 
-To maintain this guide and keep it up to date, we are constantly updating and improving the guidelines and best practices with the help of the community. You can follow our [milestones](https://github.com/i0natan/nodebestpractices/milestones) and join the working groups if you want to contribute to this project
-
+Per mantenere questa guida aggiornata, siamo costantemente implengati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
 <br/>
 
 ## Translations
