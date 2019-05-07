@@ -50,7 +50,7 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 ## Tabella dei contenuti
 
-1.  [Strutturare Del Progetto (5)](#1-project-structure-practices)
+1.  [Struttura Del Progetto (5)](#1-project-structure-practices)
 2.  [Gestione Degli Errori (11) ](#2-error-handling-practices)
 3.  [Stile Di Codice (12) ](#3-code-style-practices)
 4.  [Testing E Qualità Generale (10) ](#4-testing-and-overall-quality-practices)
@@ -1007,12 +1007,12 @@ All statements above will return false if used with `===`
 
 # Obbietivi
 
-Per mantenere questa guida aggiornata, siamo costantemente impengati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
+Per mantenere questa guida aggiornata, siamo costantemente impegnati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
 <br/>
 
 ## Traduzioni
 
-Le varie traduzioni vengono mantenuti dalla comunity. Saremmo felici di ricevere ogni tipo di aiuto sia per traduzioni in corso, che per cominciarne di nuove o per quelle completate.
+Le varie traduzioni vengono mantenute dalla comunity. Saremmo felici di ricevere ogni tipo di aiuto sia per traduzioni in corso, che per cominciarne di nuove o per quelle completate.
 
 ### Traduzioni completate
 
