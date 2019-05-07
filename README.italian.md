@@ -60,9 +60,9 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 <br/><br/>
 
-# `1. Project Structure Practices`
+# `1. Pratiche di struttura del progetto`
 
-## ![✔] 1.1 Structure your solution by components
+## ![✔] 1.1 Struttura la tua soluzione in componenti
 **TL;DR:** La peggiore, grande, trappola per applicazioni è mantenere un enorme codice basato su migliaia di dipendenze - come monolite, esso rallenta gli sviluppatori quando provano a incorporare nuove funzionalità. Al contrario, è bene partizionare il codice in componenti, ognuno sistemato in una propria cartella o codebase dedicata, e assicurare che ogni unità rimanga piccola e semplice. 
 Visita 'Leggi di più' sotto per vedere esempi di come progettare la struttura correttamente. 
 
