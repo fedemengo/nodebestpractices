@@ -1007,32 +1007,32 @@ All statements above will return false if used with `===`
 
 # Obbietivi
 
-Per mantenere questa guida aggiornata, siamo costantemente implengati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
+Per mantenere questa guida aggiornata, siamo costantemente impengati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
 <br/>
 
-## Translations
+## Traduzioni
 
-All translations are contributed by the community. We will be happy to get any help with either completed, ongoing or new translations!
+Le varie traduzioni vengono mantenuti dalla comunity. Saremmo felici di ricevere ogni tipo di aiuto sia per traduzioni in corso, che per cominciarne di nuove o per quelle completate.
 
-### Completed translations
+### Traduzioni completate
 
-- ![BR](/assets/flags/BR.png) [Brazilian Portuguese](/README.brazilian-portuguese.md) - Courtesy of [Marcelo Melo](https://github.com/marcelosdm)
-- ![CN](/assets/flags/CN.png) [Chinese](README.chinese.md) - Courtesy of [Matt Jin](https://github.com/mattjin)
+- ![BR](/assets/flags/BR.png) [Portoghese Brasiliano](/README.brazilian-portuguese.md) - Cortesia di [Marcelo Melo](https://github.com/marcelosdm)
+- ![CN](/assets/flags/CN.png) [Cinese](README.chinese.md) - Cortesia di [Matt Jin](https://github.com/mattjin)
 
-### Translations in progress
+### Traduzioni in corso
 
-- ![FR](/assets/flags/FR.png) [French](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/129))
-- ![HE](/assets/flags/HE.png) Hebrew ([Discussion](https://github.com/i0natan/nodebestpractices/issues/156))
-- ![KR](/assets/flags/KR.png) [Korean](README.korean.md) - Courtesy of [Sangbeom Han](https://github.com/uronly14me) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/94))
-- ![RU](/assets/flags/RU.png) [Russian](https://github.com/i0natan/nodebestpractices/blob/russian-translation/README.russian.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/105))
-- ![ES](/assets/flags/ES.png) [Spanish](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/95))
-- ![TR](/assets/flags/TR.png) Turkish ([Discussion](https://github.com/i0natan/nodebestpractices/issues/139))
+- ![FR](/assets/flags/FR.png) [Francese](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/129))
+- ![HE](/assets/flags/HE.png) Ebraico ([Discussione](https://github.com/i0natan/nodebestpractices/issues/156))
+- ![KR](/assets/flags/KR.png) [Koreano](README.korean.md) - Cortesia di [Sangbeom Han](https://github.com/uronly14me) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/94))
+- ![RU](/assets/flags/RU.png) [Russo](https://github.com/i0natan/nodebestpractices/blob/russian-translation/README.russian.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/105))
+- ![ES](/assets/flags/ES.png) [Spagnolo](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/95))
+- ![TR](/assets/flags/TR.png) Turco ([Discussione](https://github.com/i0natan/nodebestpractices/issues/139))
 
 <br/><br/>
 
-## Steering Committee
+## Comitato Direttivo
 
-Meet the steering committee members - the people who work together to provide guidance and future direction to the project. In addition, each member of the committee leads a project tracked under our [Github projects](https://github.com/i0natan/nodebestpractices/projects).
+Conosci i membri del comitato direttivo - le persone che lavorano insieme fornendo linee guida e future direzioni del progetto. In più, ogni membro del comitato, guida uno dei progetti che puoi trovare nella sezione [progetti di Github](https://github.com/i0natan/nodebestpractices/projects). 
 
 <img align="left" width="100" height="100" src="assets/images/members/yoni.png">
 
@@ -1040,7 +1040,7 @@ Meet the steering committee members - the people who work together to provide gu
 <a href="https://twitter.com/goldbergyoni"><img src="assets/images/twitter-s.png" width="16" height="16"></img></a>
 <a href="https://goldbergyoni.com"><img src="assets/images/www.png" width="16" height="16"></img></a>
 
-Independent Node.js consultant who works with customers in USA, Europe, and Israel on building large scale scalable Node applications. Many of the best practices above were first published at [goldbergyoni.com](https://goldbergyoni.com). Reach Yoni at @goldbergyoni or me@goldbergyoni.com
+Consulente independente Node.js che lavora con clienti in USA, Europa e Isreale per sviluppare applicazioni Node complesse e scalabili. Molte delle pratiche elencate sono state precedentemente pubblicate sul sito [goldbergyoni.com](https://goldbergyoni.com). Contatta Yoni via twitter @goldbergyoni o all'indirizzo me@goldbergyoni.com
 
 <br/>
 
@@ -1049,7 +1049,7 @@ Independent Node.js consultant who works with customers in USA, Europe, and Isra
 [Bruno Scheufler](https://github.com/BrunoScheufler)
 <a href="https://brunoscheufler.com/"><img src="assets/images/www.png" width="16" height="16"></img></a>
 
-💻 full-stack web engineer, Node.js & GraphQL enthusiast
+💻 full-stack web engineer e entusiasta Node.js & GraphQL
 
 <br/>
 
@@ -1059,7 +1059,8 @@ Independent Node.js consultant who works with customers in USA, Europe, and Isra
 <a href="https://twitter.com/kylemartin_93"><img src="assets/images/twitter-s.png" width="16" height="16"></img></a>
 <a href="https://www.linkedin.com/in/kylemartinnz"><img src="assets/images/linkedin.png" width="16" height="16"></img></a>
 
-Full Stack Developer & Site Reliability Engineer based in New Zealand, interested in web application security, and architecting and building Node.js applications to perform at global scale.
+Full Stack Developer & Site Reliability Engineer in Nuova Zelanda,
+interessato in sicurezza di applicazioni web, sviluppo e progettazioni di applicazioni Node.js che operano a scala mondiale.
 
 <br/>
 
@@ -1070,21 +1071,21 @@ Full Stack Developer & Site Reliability Engineer based in New Zealand, intereste
 <a href="https://sagirk.com"><img src="assets/images/www.png" width="16" height="16"></img></a>
 <a href="https://linkedin.com/in/sagirk"><img src="assets/images/linkedin.png" width="16" height="16"></img></a>
 
-Deep specialist in JavaScript and its ecosystem — React, Node.js, MongoDB, pretty much anything that involves using JavaScript/JSON in any layer of the system — building products using the web platform for the world’s most recognized brands. Individual Member of the Node.js Foundation, collaborating on the Community Committee's Website Redesign Initiative.
+Esperto specialista in Javascript e il suo ecosistema - React, Node.js, MongoDB e tutto quello che coinvolge JavaScript/JSON in ogni strato del sistema - che sviluppa prodotti per piattaforme web per i più importanti brand mondiali. Membro della Node.js Foundation, collaboratore della Community Committee per la Website Redesign Initiative.
 
 <br/>
 
-## Collaborators
+## Collaboratori
 
-Thank you to all our collaborators! 🙏
+Grazie a tutti i nostri collaboratori! 🙏
 
-Our collaborators are members who are contributing to the repository on a reguar basis, through suggesting new best practices, triaging issues, reviewing pull requests and more. If you are interested in helping us guide thousands of people to craft better Node.js applications, please read our [contributor guidelines](/.operations/CONTRIBUTING.md) 🎉
+I nostri collaboratori sono membri che hanno regolarmente contribuito alla repository suggerendo nuove pratiche, organizzando le issues, revisionando le pull request e altro. Se sei interessato ad aiutarci a guidare migliaia di persone a costruire migliori applicazioni Node.js, per favor leggi le nostre [linee guida per contribuire](/.operations/CONTRIBUTING.md) 🎉
 
 | <a href="https://github.com/idori" target="_blank"><img src="assets/images/members/ido.png" width="75" height="75"></a> | <a href="https://github.com/TheHollidayInn" target="_blank"><img src="assets/images/members/keith.png" width="75" height="75"></a> |
 | :--: | :--: |
 | [Ido Richter (Founder)](https://github.com/idori) | [Keith Holliday](https://github.com/TheHollidayInn) |
 
-### Past collaborators
+### Collaboratori passati
 
 | <a href="https://github.com/refack" target="_blank"><img src="assets/images/members/refael.png" width="50" height="50"></a> |
 | :--: |
@@ -1092,11 +1093,11 @@ Our collaborators are members who are contributing to the repository on a reguar
 
 <br/>
 
-## Thank You Notes
+## Note di ringraziamento
 
-We appreciate any contribution, from a single word fix to a new best practice. Below is a list of everyone who contributed to this project. A 🌻 marks a successful pull request and a ⭐ marks an approved new best practice.
+Apprezziamo ogni contributo, sia che consista nel corregge una sola parola che nell'aggiungere una nuova pratica. Di seguito una lista di tutti coloro che hanno contribuito a questo progetto. Un 🌻 (fiore) indica una PR accettata e una ⭐ (stella) indica una nuova pratica approvata.
 
-### Flowers
+### Fiori
 
 🌻 [Kevin Rambaud](https://github.com/kevinrambaud),
 🌻 [Michael Fine](https://github.com/mfine15),
@@ -1175,7 +1176,7 @@ We appreciate any contribution, from a single word fix to a new best practice. B
 🌻 [Roman](https://github.com/animir),
 🌻 [Francozeira](https://github.com/Francozeira)
 
-### Stars
+### Stelle
 
 ⭐ [Kyle Martin](https://github.com/js-kyle),
 ⭐ [Keith Holliday](https://github.com/TheHollidayInn),
