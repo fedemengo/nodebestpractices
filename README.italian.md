@@ -50,17 +50,17 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 ## Tabella dei contenuti
 
-1.  [Struttura Del Progetto (5)](#1-project-structure-practices)
-2.  [Gestione Degli Errori (11) ](#2-error-handling-practices)
-3.  [Stile Di Codice (12) ](#3-code-style-practices)
-4.  [Testing E Qualità Generale (10) ](#4-testing-and-overall-quality-practices)
-5.  [Fase Di Rilascio/Produzione (18) ](#5-going-to-production-practices)
-6.  [Sicurezza (25)](#6-security-best-practices)
-7.  [Prestazioni (1) (In Sviluppo ✍️)](#7-performance-best-practices)
+1.  [Pratiche Di Struttura Del Progetto (5)](#1-pratiche-di-struttura-del-progetto)
+2.  [Pratiche Di Gestione Degli Errori (11) ](#2-pratiche-di-gestione-degli-errori)
+3.  [Pratiche Di Stile Di Codice (12) ](#3-pratiche-di-stile-di-codice)
+4.  [Pratiche Di Testing E Qualità Generale (10) ](#4-pratiche-di-testing-e-qualità-generale)
+5.  [Pratiche Di Fase Di Produzione (18) ](#5-pratiche-di-fase-di-produzione)
+6.  [Pratiche Di Sicurezza (25)](#6-pratiche-di-sicurezza)
+7.  [Pratiche Di Prestazioni (1) (In Sviluppo ✍️)](#7-pratiche-di-prestazioni)
 
 <br/><br/>
 
-# `1. Project Structure Practices`
+# `1. Pratiche Di Struttura Del Progetto`
 
 ## ![✔] 1.1 Structure your solution by components
 
@@ -114,7 +114,7 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `2. Error Handling Practices`
+# `2. Pratiche Di Gestione Degli Errori`
 
 ## ![✔] 2.1 Use Async-Await or promises for async error handling
 
@@ -228,7 +228,7 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `3. Code Style Practices`
+# `3. Pratiche Di Stile Di Codice`
 
 ## ![✔] 3.1 Use ESLint
 
@@ -416,7 +416,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `4. Testing And Overall Quality Practices`
+# `4. Pratiche Di Testing E Qualità Generale`
 
 ## ![✔] 4.1 At the very least, write API (component) testing
 
@@ -506,7 +506,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `5. Going To Production Practices`
+# `5. Pratiche Di Fase Di Produzione`
 
 ## ![✔] 5.1. Monitoring!
 
@@ -688,7 +688,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `6. Security Best Practices`
+# `6. Pratiche Di Sicurezza`
 
 <div align="center">
 <img src="https://img.shields.io/badge/OWASP%20Threats-Top%2010-green.svg" alt="54 items"/>
@@ -990,7 +990,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `7. Performance Best Practices`
+# `7. Pratiche Di Prestazioni`
 
 ## Our contributors are working on this section. [Would you like to join?](https://github.com/i0natan/nodebestpractices/issues/256)
 
