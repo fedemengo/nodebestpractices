@@ -72,13 +72,14 @@ Visita 'Leggi di più' sotto per vedere esempi di come progettare la struttura c
 
 <br/><br/>
 
-## ![✔] 1.2 Layer your components, keep Express within its boundaries
+## ![✔] 1.2 Stratifica i componenti, mantieni Express all'interno dei suoi confini
+**TL;DR:** Ogni componente dovrebbe contenere degli 'strati' - un oggetto dedicato per il web, uno per la logica e uno per l'accesso ai dati. 
+Questo non solo determina una chiara separazione delle relazioni, ma semplifica anche notevolmente il mocking ed il testing del sistema. 
+Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API tendono a mescolare gli strati passando gli oggetti dello strato Web (Express req, res) alla logica di business ed agli strati per l'accesso ai dati - questo rende la tua applicazione dipendente e accessibile solo da Express.
 
-**TL;DR:** Each component should contain 'layers' - a dedicated object for the web, logic, and data access code. This not only draws a clean separation of concerns but also significantly eases mocking and testing the system. Though this is a very common pattern, API developers tend to mix layers by passing the web layer objects (Express req, res) to business logic and data layers - this makes your application dependent on and accessible by Express only
+**Altrimenti:** Le app che mischiano oggetti web con altri strati non possono essere accedute testando: il codice, job CRON ed altri chiamanti non-Express. 
 
-**Otherwise:** App that mixes web objects with other layers cannot be accessed by testing code, CRON jobs, and other non-Express callers
-
-🔗 [**Read More: layer your app**](/sections/projectstructre/createlayers.md)
+🔗 [**Leggi di più: Stratifica l'app**](/sections/projectstructre/createlayers.italian.md)
 
 <br/><br/>
 
