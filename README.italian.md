@@ -74,7 +74,7 @@ Visita 'Leggi di più' sotto per vedere esempi di come progettare la struttura c
 
 ## ![✔] 1.2 Stratifica i componenti, mantieni Express all'interno dei suoi confini
 **TL;DR:** Ogni componente dovrebbe contenere degli 'strati' - un oggetto dedicato per il web, uno per la logica e uno per l'accesso ai dati. 
-Questo non solo disegna una chiara separazione delle relazioni, ma semplifica anche notevolmente il mocking ed il testing del sistema. 
+Questo non solo determina una chiara separazione delle relazioni, ma semplifica anche notevolmente il mocking ed il testing del sistema. 
 Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API tendono a mescolare gli strati passando gli oggetti dello strato Web (Express req, res) alla logica di business ed agli strati per l'accesso ai dati - questo rende la tua applicazione dipendente e accessibile solo da Express.
 
 **Altrimenti:** Le app che mischiano oggetti web con altri strati non possono essere accedute testando: il codice, job CRON ed altri chiamanti non-Express. 
