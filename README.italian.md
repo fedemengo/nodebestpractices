@@ -44,7 +44,7 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 **2. È la più grande raccolta del suo tipo e cresce ogni settimana -** al momento vengono presentati più 80 migliori pratiche, linee guida sullo stile e consigli sull'architettura. Nuove issues e pull requests vengono create ogni giorni per mantenere questa raccolta aggiornata. Ci farebbe molto piacere il tuo contributo per rimuovere errori nel codice, aiutare con le traduzioni o per suggerire nuove idee. Puoi trovare le nostre [linee guida di scrittura qui](/.operations/writing-guidelines.italian.md)
 
-**3. La maggior parte delle pratiche elencate hanno informazioni aggiuntive -** molte voci includono un link **🔗Per sapere di più** che fornisce più dettagli con esempi di codice, citazioni da blog specializzati e molto altro.
+**3. La maggior parte delle pratiche elencate hanno informazioni aggiuntive -** molte voci includono un link **🔗Leggi di più** che fornisce più dettagli con esempi di codice, citazioni da blog specializzati e molto altro.
 
 <br/><br/>
 
@@ -1007,7 +1007,7 @@ All statements above will return false if used with `===`
 
 # Obbietivi
 
-Per mantenere questa guida aggiornata, siamo costantemente impegnati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i notri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
+Per mantenere questa guida aggiornata, siamo costantemente impegnati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i nostri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
 <br/>
 
 ## Traduzioni
@@ -1027,6 +1027,8 @@ Le varie traduzioni vengono mantenute dalla comunity. Saremmo felici di ricevere
 - ![RU](/assets/flags/RU.png) [Russo](https://github.com/i0natan/nodebestpractices/blob/russian-translation/README.russian.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/105))
 - ![ES](/assets/flags/ES.png) [Spagnolo](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/95))
 - ![TR](/assets/flags/TR.png) Turco ([Discussione](https://github.com/i0natan/nodebestpractices/issues/139))
+- ![TR](/assets/flags/IT.png) Italiano ([Discussione](https://github.com/i0natan/nodebestpractices/issues/173))
+
 
 <br/><br/>
 
