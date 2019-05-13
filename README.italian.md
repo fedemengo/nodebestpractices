@@ -83,13 +83,13 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <br/><br/>
 
-## ![✔] 1.3 Wrap common utilities as npm packages
+## ![✔] 1.3 Confeziona le utilità comuni come pacchetti npm
 
-**TL;DR:** In a large app that constitutes a large code base, cross-cutting-concern utilities like logger, encryption and alike, should be wrapped by your own code and exposed as private npm packages. This allows sharing them among multiple code bases and projects
+**TL;DR:**  In una grande applicazione che costituisce una grande code base, utilità trasversali come logger, crittografia e simili, dovrebbero essere confezionate dal tuo codice ed esposte come pacchetti npm privati. Questo permette di condividerle attraverso multiple code base e progetti. 
 
-**Otherwise:** You'll have to invent your own deployment and dependency wheel
+**Otherwise:** Dovrai inventare il tuo ciclo di distribuzione e dipendenza
 
-🔗 [**Read More: Structure by feature**](/sections/projectstructre/wraputilities.md)
+🔗 [**Leggi di più: Structure by feature**](/sections/projectstructre/wraputilities.md)
 
 <br/><br/>
 
