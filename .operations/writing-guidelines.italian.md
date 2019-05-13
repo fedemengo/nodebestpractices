@@ -1,32 +1,36 @@
 # Il nostro manifesto di scrittura
 
-Come miglioriamo l'esperienza di lettura e apprendimento per i nostri lettori 
+Come miglioriamo l'esperienza di lettura e apprendimento per i nostri lettori
 
 ## 1. Semplice é meglio che migliore
 
 <br/>
-Making it easy to read and absorb knowledge is our mission, we curate content. As such we focus on transforming complex and exhausting topics into a simplified list, trade overloaded information with shortened and less-accurate details, avoid ‘flammable’ and controversial topics and escape subjective ideas in favor of generally accepted practices
+La nostra mission é fare in modo che la lettura e l'assorbimento di informazioni sia semplice. Per questo ci concentriamo nel trasformare argomenti complessi ed esaustivi in una lista semplificata, informazioni sovraccaricate in dettagli meno accurati e abbreviati. Evitiamo argomenti caldi e contestati in favore di pratiche generalmente accettare
 
 <br/>
 
 ## 2. Presenta prove e sii affidabile
 
 <br/>
-Our readers should have great confidence that the content they skim through is reliable. We achieve this by including evidence like references, data and other resources available to this topic. Practically, strive to include quotes from reliable sources, show benchmarks, related design patterns or any scientific measure to prove your claims
 
+I nostri lettori devono avere fiducia nel fatto che i contenuti che leggono siano affidabili. Per garantire questo presentiamo citazioni, dati e altre risorse disponibili per l'argomento in questione. Nel concreto, sforzati di includere citazioni da fonti attendibili, mostra benchmarks e design patterns inerenti o qualsiasi altro tipo di misura scientifica che sostiene le tue affermazioni
 
 ## 3. MECE (Mutualmene Esclusivo e Complessivamente Esaustivo)
-Apart from the content being greatly edited and reliable, skimming through it should also provide full coverage of the topic. No important sub-topic should be left out
+
+Indipendetemente dal fatto che i contenuti siano notevolmente curati e affidabili, una veloce lettura deve garantire una completa comprensione dell'argomento. Nessun sotto argomento deve essere tralasciato
 
 ## 4. Formattazione consistente
-The content is presented using fixed templates. Any future content must conform to the same template. If you wish to add new bullets copy a bullet format from an existing bullet and extend it to your needs. For additional information please view [this template](https://github.com/i0natan/nodebestpractices/blob/master/sections/template.md)
+
+I contenuti sono presentati utilizzando template. Ogni contenuto deve rispettare lo stesso template. Se vuoi aggiungere nuovi elenchi puntati, copiane il formato da uno esistente ed estendilo in base alle tue necessità. Per ulteriori informazioni dai un'occhiata a [questo template](https://github.com/i0natan/nodebestpractices/blob/master/sections/template.md)
 
 ## 5. Riguarda Node.js
-Each advice should be related directly to Node.js and not to software development in general. When we advise to implement generic pattern/rule in Node.js, the content should focus on the Node implementation. For example, when we advise to sanitize all requests input for security reasons, Node-lingo should be used - ‘Use middleware to sanitize request input’. If an item has no specific implementation in Node.js (e.g. it looks the same in Python & Jaba) - include it within a generic container item, see item 6.5 for example
+
+Ogni sugerimento deve essere inerente a Node.js e non allo sviluppo software in generale. Quando suggeriamo di implementare pattern e regole generiche in Node.js, i contenuti devono concentrarsi sulla implementazione in Node.js. Ad esempio, quando consigliamo di sanificare le richieste di input per ragioni di sicurezza, deve essere utilizzato il gergo Node.js - "Usa un middleware per sanificare le richieste di input". Se alcuni elementi non hanno una implementazione spefica in Node.js (e.g é simile in Python e Java) - aggiungi l'elemento all'interno di un generico articolo, per esempio il punto 6.5
 
 ## 6. Solamente i principali fornitori
-Sometimes it's useful to include names of vendors that can address certain challenges and problems like npm packages, open source tools or even commercial products. To avoid overwhelmingly long lists or recommending non-reputable and unstable projects, we came up with the following rules:
 
--	Only the top 3 vendors should be recommended – a vendor that appears in the top 3 results of a search engine (Google or GitHub sorted by popularity) for a given relevant keyword can be included in our recommendation
--	If it’s a npm package it must also be downloaded at least 750 times a day on average
--	If it’s an open-source project, it must have been updated at least once in the last 6 months
+A volte é utile includere i nomi degli sviluppatori/fornitori che possono risolvere certe difficoltà e problemi come pacchetti npm, strumenti open source o anche prodotti commerciali. Per evitare di scrivere immense liste o di raccomandre progetti instabili e non rispettabili, abbiamo deciso di seguire alcune regole:
+
+- Solamente i migliore 3 fornitori possono essere consigliati - un fornitore che appare nei primi 3 risultati di un motore di ricerca (Google o GitHub ordinato per popolarità) per una keywork rilevante può essere incluso.
+- Se si tratta di un pacchetto npm, deve essere scaricato, in media, almento 750 volte al giorno
+- Se si tratta di un progetto open-source, deve essere stato aggiornato almeno una volta negli utlimi 6 mesi
