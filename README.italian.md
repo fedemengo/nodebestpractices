@@ -89,7 +89,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 **Otherwise:** Dovrai inventare il tuo ciclo di distribuzione e dipendenza
 
-🔗 [**Leggi di più: Structure by feature**](/sections/projectstructre/wraputilities.md)
+🔗 [**Leggi di più: Struttura per caratteristica**](/sections/projectstructre/wraputilities.italian.md)
 
 <br/><br/>
 
