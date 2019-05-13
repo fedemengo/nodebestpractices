@@ -87,7 +87,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 **TL;DR:**  In una grande applicazione che costituisce una grande code base, utilità trasversali come logger, crittografia e simili, dovrebbero essere confezionate dal tuo codice ed esposte come pacchetti npm privati. Questo permette di condividerle attraverso multiple code base e progetti. 
 
-**Otherwise:** Dovrai inventare il tuo ciclo di distribuzione e dipendenza
+**Altrimenti:** Dovrai inventare il tuo ciclo di distribuzione e dipendenza
 
 🔗 [**Leggi di più: Struttura per caratteristica**](/sections/projectstructre/wraputilities.italian.md)
 
