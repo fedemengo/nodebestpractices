@@ -62,13 +62,14 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 # `1. Pratiche Di Struttura Del Progetto`
 
-## ![✔] 1.1 Structure your solution by components
+## ![✔] 1.1 Struttura la tua soluzione in componenti
 
-**TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its own folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
+**TL;DR:** La peggiore, grande, trappola per applicazioni è mantenere un enorme codice basato su migliaia di dipendenze - come monolite, esso rallenta gli sviluppatori quando provano a incorporare nuove funzionalità. Al contrario, è bene partizionare il codice in componenti, ognuno sistemato in una propria cartella o codebase dedicata, e assicurare che ogni unità rimanga piccola e semplice. 
+Visita 'Leggi di più' sotto per vedere esempi di come progettare la struttura correttamente. 
 
-**Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependent components - deployments become slower and riskier. It's also considered harder to scale-out when all the business units are not separated
+**Altrimenti:** Quando gli sviluppatori, che codificano le nuove funzionalità, fanno fatica a comprendere l'impatto dei loro cambiamenti e temono di rompere altri componenti dipendenti, le implementazioni diventano più lente e rischiose. È anche considerato più difficile il ridimensionamento quando tutte le unità di business non sono separate.
 
-🔗 [**Read More: structure by components**](/sections/projectstructre/breakintcomponents.md)
+🔗 [**Leggi di più: struttura a componenti**](/sections/projectstructre/breakintcomponents.italian.md)
 
 <br/><br/>
 
