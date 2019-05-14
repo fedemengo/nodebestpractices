@@ -2,16 +2,16 @@
 
 ### Comitato direttivo 🏆
 
-Members of the steering committee work together to provide guidance and future direction to the project. Each committee member has a particular expertise which they share their knowledge on, and work to lead further improvements to the project in that area. The steering committee members are responsible for approving new best practices, and ensuring current best practices remain relevant.
+I membri del comitato direttivo lavorano insieme per guidare e stabilire future direzione del progetto. Ogni membro ha una particolare area di compentenza in cui condivide le proprie conoscenze e si occupa di migliorare il progetto in quell'area. I membri del comitato sono responsabili per approvare nuove pratiche e assicurare che le pratiche correnti rimangano valide e rilevanti.
 
 ### Collaboratori 👍
 
-Collaborators are members who are contributing to the repository on a regular basis, through suggesting new best practices, triaging issues, reviewing pull requests and more. Along with the steering committee, each collaborator leads a project tracked under our Github projects.
+I collaboratori sono i membri che contribuiscono alla repository regolarmente, suggerendo nuove pratiche, smistanto le issues, esaminando le pull requests e altro. Insieme con il comitato direttivo, ogni collaboratore è in carica di uno dei progetti nella sezione progetti Github.
 
-The role is in place to help the steering committee ensure that the content provided is of a high standard, up-to-date with the industry, and available in many languages. Members who frequently participate in these activities will be invited to become a collaborator, based on the quality of their contributions.
+Il roulo è quello di aiutare il comitato a fare in modo che il contenuto fornito sia di alta qualità, aggiornato con l'industria e disponibile in diverse lingue. I membri che partecipano attivamente a queste attività saranno invitati per diventare collaboratori, in base alla qualità dei loro contributi.
 
-The steering committee periodically reviews the collaborator list to identify inactive collaborators. Inactive collaborators can choose to either continue in or step down from their role, in which case they are acknowledged as a past collaborator. They may later request that the steering committee restore them to active status.
+Il comitato direttivo rivaluta i collaborati periodicamente per identificare quelli inattivi. I collaboratori inattivi possono decidere di continuare a collaborare o rinunciare al loro ruolo, in quest'ultimo caso vengono riconosciuti come collaboratori passati. Potranno richiedere in futuro, al comitato, di ripristinare il loro ruolo come collaboratori attivi.
 
 ### Fiori e stelle
 
-Every addition to the project are acknowledged by the author gaining a place on the home page. A flower 🌻 marks a successful pull request. A star of honor ⭐ is assigned to contributors who propose and write a new best practice to our guide.
+Ogni apporto al progetto viene riconosciuto assegnando all'autore un posto nella home page. Un fiore 🌻 indica una pull request accettata. Una stella d'onore ⭐ viene assegnata ai contributori che propongono e scrivono una nuova pratica da aggiungere alla nostra guida.
