@@ -1,6 +1,6 @@
 [✔]: assets/images/checkbox-small-blue.png
 
-# Node.js Best Practices
+# Migliori pratiche in Node.js
 
 <h1 align="center">
   <img src="assets/images/banner-2.jpg" alt="Node.js Best Practices">
@@ -9,22 +9,22 @@
 <br/>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/⚙%20Item%20count%20-%2082%20Best%20Practices-blue.svg" alt="82 items"> <img src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20Apr%2013%202019-green.svg" alt="Last update: April 13, 2019"> <img src="https://img.shields.io/badge/ %E2%9C%94%20Updated%20For%20Version%20-%20Node%2010.15.3%20LTS-brightgreen.svg" alt="Updated for Node 10.15.3 LTS">
+  <img src="https://img.shields.io/badge/⚙%20Numero%20di%20items%20-%2082%20Best%20Practices-blue.svg" alt="82 items"> <img src="https://img.shields.io/badge/%F0%9F%93%85%20Ultimo%20aggiornamento%20-%20Apr%2013%202019-green.svg" alt="Last update: April 13, 2019"> <img src="https://img.shields.io/badge/ %E2%9C%94%20Aggiornato%20alla%20versione%20-%20Node%2010.15.3%20LTS-brightgreen.svg" alt="Updated for Node 10.15.3 LTS">
 </div>
 
 <br/>
 
-[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Follow us on Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
+[![nodepractices](/assets/images/twitter-s.png)](https://twitter.com/nodepractices/) **Seguici su Twitter!** [**@nodepractices**](https://twitter.com/nodepractices/)
 
 <br/>
 
-Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR**, ![RU](/assets/flags/RU.png)**RU** and ![TR](/assets/flags/TR.png)**TR** in progress!)](#translations)
+Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), [![BR](/assets/flags/BR.png)**BR**](/README.brazilian-portuguese.md), [![IT](/assets/flags/IT.png)**IT**](/README.italian.md) [(![ES](/assets/flags/ES.png)**ES**, ![FR](/assets/flags/FR.png)**FR**, ![HE](/assets/flags/HE.png)**HE**, ![KR](/assets/flags/KR.png)**KR**, ![RU](/assets/flags/RU.png)**RU** and ![TR](/assets/flags/TR.png)**TR** in progress!)](#translations)
 
 <br/>
 
-###### Built and maintained by our [Steering Committee](#steering-committee) and [Collaborators](#collaborators)
+###### Creato e mantenuto dal [Comitato Direttivo](#steering-committee) e dai [Collaboratori](#collaborators)
 
-# Latest Best Practices and News
+# Nuove pratiche e novità
 
 - **New best practice:** 6.25: [Avoid publishing secrets to the npm registry](/sections/security/avoid_publishing_secrets.md)
 
@@ -38,37 +38,37 @@ Read in a different language: [![CN](/assets/flags/CN.png)**CN**](/README.chines
 
 <br/><br/>
 
-# Welcome! 3 Things You Ought To Know First:
+# Benvenuti! 3 Cosa Che Dovresti Sapere:
 
-**1. You are, in fact, reading dozens of the best Node.js articles -** this repository is a summary and curation of the top-ranked content on Node.js best practices, as well as content written here by collaborators
+**1. Stai leggendo decine dei migliori articoli riguardo Node.js -** questa repository è un riassunto curato delle migliori pratiche e contenuti per Node.js, scritti da diversi collabatori  
 
-**2. It is the largest compilation, and it is growing every week -** currently, more than 80 best practices, style guides, and architectural tips are presented. New issues and pull requests are created every day to keep this live book updated. We'd love to see you contributing here, whether that is fixing code mistakes, helping with translations, or suggesting brilliant new ideas. See our [writing guidelines here](/.operations/writing-guidelines.md)
+**2. È la più grande raccolta del suo tipo e cresce ogni settimana -** al momento vengono presentati più 80 migliori pratiche, linee guida sullo stile e consigli sull'architettura. Nuove issues e pull requests vengono create ogni giorni per mantenere questa raccolta aggiornata. Ci farebbe molto piacere il tuo contributo per rimuovere errori nel codice, aiutare con le traduzioni o per suggerire nuove idee. Puoi trovare le nostre [linee guida di scrittura qui](/.operations/writing-guidelines.italian.md)
 
-**3. Most best practices have additional info -** most bullets include a **🔗Read More** link that expands on the practice with code examples, quotes from selected blogs and more information
-
-<br/><br/>
-
-## Table of Contents
-
-1.  [Project Structure Practices (5)](#1-project-structure-practices)
-2.  [Error Handling Practices (11) ](#2-error-handling-practices)
-3.  [Code Style Practices (12) ](#3-code-style-practices)
-4.  [Testing And Overall Quality Practices (10) ](#4-testing-and-overall-quality-practices)
-5.  [Going To Production Practices (18) ](#5-going-to-production-practices)
-6.  [Security Practices (25)](#6-security-best-practices)
-7.  [Performance Practices (1) (In Progress️ ✍️)](#7-performance-best-practices)
+**3. La maggior parte delle pratiche elencate hanno informazioni aggiuntive -** molte voci includono un link **🔗Leggi di più** che fornisce più dettagli con esempi di codice, citazioni da blog specializzati e molto altro.
 
 <br/><br/>
 
-# `1. Pratiche di struttura del progetto`
+## Tabella dei contenuti
 
-## ![✔] 1.1 Struttura la tua soluzione in componenti
-**TL;DR:** La peggiore, grande, trappola per applicazioni è mantenere un enorme codice basato su migliaia di dipendenze - come monolite, esso rallenta gli sviluppatori quando provano a incorporare nuove funzionalità. Al contrario, è bene partizionare il codice in componenti, ognuno sistemato in una propria cartella o codebase dedicata, e assicurare che ogni unità rimanga piccola e semplice. 
-Visita 'Leggi di più' sotto per vedere esempi di come progettare la struttura correttamente. 
+1.  [Pratiche Di Struttura Del Progetto (5)](#1-pratiche-di-struttura-del-progetto)
+2.  [Pratiche Di Gestione Degli Errori (11) ](#2-pratiche-di-gestione-degli-errori)
+3.  [Pratiche Di Stile Di Codice (12) ](#3-pratiche-di-stile-di-codice)
+4.  [Pratiche Di Testing E Qualità Generale (10) ](#4-pratiche-di-testing-e-qualità-generale)
+5.  [Pratiche Di Fase Di Produzione (18) ](#5-pratiche-di-fase-di-produzione)
+6.  [Pratiche Di Sicurezza (25)](#6-pratiche-di-sicurezza)
+7.  [Pratiche Di Prestazioni (1) (In Sviluppo ✍️)](#7-pratiche-di-prestazioni)
 
-**Altrimenti:** Quando gli sviluppatori, che codificano le nuove funzionalità, fanno fatica a comprendere l'impatto dei loro cambiamenti e temono di rompere altri componenti dipendenti, le implementazioni diventano più lente e rischiose. È anche considerato più difficile il ridimensionamento quando tutte le unità di business non sono separate.
+<br/><br/>
 
-🔗 [**Leggi di più: struttura a componenti**](/sections/projectstructre/breakintcomponents.italian.md)
+# `1. Pratiche Di Struttura Del Progetto`
+
+## ![✔] 1.1 Structure your solution by components
+
+**TL;DR:** The worst large applications pitfall is maintaining a huge code base with hundreds of dependencies - such a monolith slows down developers as they try to incorporate new features. Instead, partition your code into components, each gets its own folder or a dedicated codebase, and ensure that each unit is kept small and simple. Visit 'Read More' below to see examples of correct project structure
+
+**Otherwise:** When developers who code new features struggle to realize the impact of their change and fear to break other dependent components - deployments become slower and riskier. It's also considered harder to scale-out when all the business units are not separated
+
+🔗 [**Read More: structure by components**](/sections/projectstructre/breakintcomponents.md)
 
 <br/><br/>
 
@@ -115,7 +115,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `2. Error Handling Practices`
+# `2. Pratiche Di Gestione Degli Errori`
 
 ## ![✔] 2.1 Use Async-Await or promises for async error handling
 
@@ -229,7 +229,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `3. Code Style Practices`
+# `3. Pratiche Di Stile Di Codice`
 
 ## ![✔] 3.1 Use ESLint
 
@@ -417,7 +417,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `4. Testing And Overall Quality Practices`
+# `4. Pratiche Di Testing E Qualità Generale`
 
 ## ![✔] 4.1 At the very least, write API (component) testing
 
@@ -507,7 +507,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `5. Going To Production Practices`
+# `5. Pratiche Di Fase Di Produzione`
 
 ## ![✔] 5.1. Monitoring!
 
@@ -689,7 +689,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `6. Security Best Practices`
+# `6. Pratiche Di Sicurezza`
 
 <div align="center">
 <img src="https://img.shields.io/badge/OWASP%20Threats-Top%2010-green.svg" alt="54 items"/>
@@ -991,7 +991,7 @@ All statements above will return false if used with `===`
 
 <p align="right"><a href="#table-of-contents">⬆ Return to top</a></p>
 
-# `7. Performance Best Practices`
+# `7. Pratiche Di Prestazioni`
 
 ## Our contributors are working on this section. [Would you like to join?](https://github.com/i0natan/nodebestpractices/issues/256)
 
@@ -1006,35 +1006,36 @@ All statements above will return false if used with `===`
 
 <br/><br/><br/>
 
-# Milestones
+# Obbietivi
 
-To maintain this guide and keep it up to date, we are constantly updating and improving the guidelines and best practices with the help of the community. You can follow our [milestones](https://github.com/i0natan/nodebestpractices/milestones) and join the working groups if you want to contribute to this project
-
+Per mantenere questa guida aggiornata, siamo costantemente impegnati a migliorare e integrate le linee guida e le pratiche con l'aiuto della community. Puoi seguire i nostri [obbietivi](https://github.com/i0natan/nodebestpractices/milestones), se vuoi contribuire a questo pregetto puoi unirti ad un gruppo di lavoro.
 <br/>
 
-## Translations
+## Traduzioni
 
-All translations are contributed by the community. We will be happy to get any help with either completed, ongoing or new translations!
+Le varie traduzioni vengono mantenute dalla comunity. Saremmo felici di ricevere ogni tipo di aiuto sia per traduzioni in corso, che per cominciarne di nuove o per quelle completate.
 
-### Completed translations
+### Traduzioni completate
 
-- ![BR](/assets/flags/BR.png) [Brazilian Portuguese](/README.brazilian-portuguese.md) - Courtesy of [Marcelo Melo](https://github.com/marcelosdm)
-- ![CN](/assets/flags/CN.png) [Chinese](README.chinese.md) - Courtesy of [Matt Jin](https://github.com/mattjin)
+- ![BR](/assets/flags/BR.png) [Portoghese Brasiliano](/README.brazilian-portuguese.md) - Cortesia di [Marcelo Melo](https://github.com/marcelosdm)
+- ![CN](/assets/flags/CN.png) [Cinese](README.chinese.md) - Cortesia di [Matt Jin](https://github.com/mattjin)
 
-### Translations in progress
+### Traduzioni in corso
 
-- ![FR](/assets/flags/FR.png) [French](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/129))
-- ![HE](/assets/flags/HE.png) Hebrew ([Discussion](https://github.com/i0natan/nodebestpractices/issues/156))
-- ![KR](/assets/flags/KR.png) [Korean](README.korean.md) - Courtesy of [Sangbeom Han](https://github.com/uronly14me) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/94))
-- ![RU](/assets/flags/RU.png) [Russian](https://github.com/i0natan/nodebestpractices/blob/russian-translation/README.russian.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/105))
-- ![ES](/assets/flags/ES.png) [Spanish](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussion](https://github.com/i0natan/nodebestpractices/issues/95))
-- ![TR](/assets/flags/TR.png) Turkish ([Discussion](https://github.com/i0natan/nodebestpractices/issues/139))
+- ![FR](/assets/flags/FR.png) [Francese](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/129))
+- ![HE](/assets/flags/HE.png) Ebraico ([Discussione](https://github.com/i0natan/nodebestpractices/issues/156))
+- ![KR](/assets/flags/KR.png) [Koreano](README.korean.md) - Cortesia di [Sangbeom Han](https://github.com/uronly14me) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/94))
+- ![RU](/assets/flags/RU.png) [Russo](https://github.com/i0natan/nodebestpractices/blob/russian-translation/README.russian.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/105))
+- ![ES](/assets/flags/ES.png) [Spagnolo](https://github.com/i0natan/nodebestpractices/blob/spanish-translation/README.spanish.md) ([Discussione](https://github.com/i0natan/nodebestpractices/issues/95))
+- ![TR](/assets/flags/TR.png) Turco ([Discussione](https://github.com/i0natan/nodebestpractices/issues/139))
+- ![TR](/assets/flags/IT.png) Italiano ([Discussione](https://github.com/i0natan/nodebestpractices/issues/173))
+
 
 <br/><br/>
 
-## Steering Committee
+## Comitato Direttivo
 
-Meet the steering committee members - the people who work together to provide guidance and future direction to the project. In addition, each member of the committee leads a project tracked under our [Github projects](https://github.com/i0natan/nodebestpractices/projects).
+Conosci i membri del comitato direttivo - le persone che lavorano insieme fornendo linee guida e future direzioni del progetto. In più, ogni membro del comitato, guida uno dei progetti che puoi trovare nella sezione [progetti di Github](https://github.com/i0natan/nodebestpractices/projects). 
 
 <img align="left" width="100" height="100" src="assets/images/members/yoni.png">
 
@@ -1042,7 +1043,7 @@ Meet the steering committee members - the people who work together to provide gu
 <a href="https://twitter.com/goldbergyoni"><img src="assets/images/twitter-s.png" width="16" height="16"></img></a>
 <a href="https://goldbergyoni.com"><img src="assets/images/www.png" width="16" height="16"></img></a>
 
-Independent Node.js consultant who works with customers in USA, Europe, and Israel on building large scale scalable Node applications. Many of the best practices above were first published at [goldbergyoni.com](https://goldbergyoni.com). Reach Yoni at @goldbergyoni or me@goldbergyoni.com
+Consulente independente Node.js che lavora con clienti in USA, Europa e Isreale per sviluppare applicazioni Node complesse e scalabili. Molte delle pratiche elencate sono state precedentemente pubblicate sul sito [goldbergyoni.com](https://goldbergyoni.com). Contatta Yoni via twitter @goldbergyoni o all'indirizzo me@goldbergyoni.com
 
 <br/>
 
@@ -1051,7 +1052,7 @@ Independent Node.js consultant who works with customers in USA, Europe, and Isra
 [Bruno Scheufler](https://github.com/BrunoScheufler)
 <a href="https://brunoscheufler.com/"><img src="assets/images/www.png" width="16" height="16"></img></a>
 
-💻 full-stack web engineer, Node.js & GraphQL enthusiast
+💻 full-stack web engineer e entusiasta Node.js & GraphQL
 
 <br/>
 
@@ -1061,7 +1062,8 @@ Independent Node.js consultant who works with customers in USA, Europe, and Isra
 <a href="https://twitter.com/kylemartin_93"><img src="assets/images/twitter-s.png" width="16" height="16"></img></a>
 <a href="https://www.linkedin.com/in/kylemartinnz"><img src="assets/images/linkedin.png" width="16" height="16"></img></a>
 
-Full Stack Developer & Site Reliability Engineer based in New Zealand, interested in web application security, and architecting and building Node.js applications to perform at global scale.
+Full Stack Developer & Site Reliability Engineer in Nuova Zelanda,
+interessato in sicurezza di applicazioni web, sviluppo e progettazioni di applicazioni Node.js che operano a scala mondiale.
 
 <br/>
 
@@ -1072,21 +1074,21 @@ Full Stack Developer & Site Reliability Engineer based in New Zealand, intereste
 <a href="https://sagirk.com"><img src="assets/images/www.png" width="16" height="16"></img></a>
 <a href="https://linkedin.com/in/sagirk"><img src="assets/images/linkedin.png" width="16" height="16"></img></a>
 
-Deep specialist in JavaScript and its ecosystem — React, Node.js, MongoDB, pretty much anything that involves using JavaScript/JSON in any layer of the system — building products using the web platform for the world’s most recognized brands. Individual Member of the Node.js Foundation, collaborating on the Community Committee's Website Redesign Initiative.
+Esperto specialista in Javascript e il suo ecosistema - React, Node.js, MongoDB e tutto quello che coinvolge JavaScript/JSON in ogni strato del sistema - che sviluppa prodotti per piattaforme web per i più importanti brand mondiali. Membro della Node.js Foundation, collaboratore della Community Committee per la Website Redesign Initiative.
 
 <br/>
 
-## Collaborators
+## Collaboratori
 
-Thank you to all our collaborators! 🙏
+Grazie a tutti i nostri collaboratori! 🙏
 
-Our collaborators are members who are contributing to the repository on a reguar basis, through suggesting new best practices, triaging issues, reviewing pull requests and more. If you are interested in helping us guide thousands of people to craft better Node.js applications, please read our [contributor guidelines](/.operations/CONTRIBUTING.md) 🎉
+I nostri collaboratori sono membri che hanno regolarmente contribuito alla repository suggerendo nuove pratiche, organizzando le issues, revisionando le pull request e altro. Se sei interessato ad aiutarci a guidare migliaia di persone a costruire migliori applicazioni Node.js, per favor leggi le nostre [linee guida per contribuire](/.operations/CONTRIBUTING.md) 🎉
 
 | <a href="https://github.com/idori" target="_blank"><img src="assets/images/members/ido.png" width="75" height="75"></a> | <a href="https://github.com/TheHollidayInn" target="_blank"><img src="assets/images/members/keith.png" width="75" height="75"></a> |
 | :--: | :--: |
 | [Ido Richter (Founder)](https://github.com/idori) | [Keith Holliday](https://github.com/TheHollidayInn) |
 
-### Past collaborators
+### Collaboratori passati
 
 | <a href="https://github.com/refack" target="_blank"><img src="assets/images/members/refael.png" width="50" height="50"></a> |
 | :--: |
@@ -1094,11 +1096,11 @@ Our collaborators are members who are contributing to the repository on a reguar
 
 <br/>
 
-## Thank You Notes
+## Note di ringraziamento
 
-We appreciate any contribution, from a single word fix to a new best practice. Below is a list of everyone who contributed to this project. A 🌻 marks a successful pull request and a ⭐ marks an approved new best practice.
+Apprezziamo ogni contributo, sia che consista nel corregge una sola parola che nell'aggiungere una nuova pratica. Di seguito una lista di tutti coloro che hanno contribuito a questo progetto. Un 🌻 (fiore) indica una PR accettata e una ⭐ (stella) indica una nuova pratica approvata.
 
-### Flowers
+### Fiori
 
 🌻 [Kevin Rambaud](https://github.com/kevinrambaud),
 🌻 [Michael Fine](https://github.com/mfine15),
@@ -1177,7 +1179,7 @@ We appreciate any contribution, from a single word fix to a new best practice. B
 🌻 [Roman](https://github.com/animir),
 🌻 [Francozeira](https://github.com/Francozeira)
 
-### Stars
+### Stelle
 
 ⭐ [Kyle Martin](https://github.com/js-kyle),
 ⭐ [Keith Holliday](https://github.com/TheHollidayInn),
