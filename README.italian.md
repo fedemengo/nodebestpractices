@@ -96,7 +96,7 @@ Leggi in altre lingue: [![CN](/assets/flags/CN.png)**CN**](/README.chinese.md), 
 
 **TL;DR:** Evita la bruttissima abitudine di definire l'intera app [Express](https://expressjs.com/) in un unico, gigantesco file - separa la definizione di 'Express' in almeno due files: la dichiarazione dell'API (app.js) e tutto quello che riguarda la connessione (WWW). Per una struttura ancora migliore, posiziona la dichiarazione dell'API all'interno dei componenti
 
-**Altrimenti:** La tua API sarà accessibile, per il testing, solamente attraverso chiamate HTTP (generare resoconti di copertura diventa cosi più lento e decisamente più complicato). Molto probabilemnte non sarà nemmeno piacevole mantere centinaia di linee di codice in un solo file
+**Altrimenti:** La tua API sarà accessibile, per il testing, solamente attraverso chiamate HTTP (generare resoconti di copertura diventa così più lento e decisamente più complicato). Molto probabilmente non sarà nemmeno piacevole mantere centinaia di linee di codice in un solo file
 
 🔗 [**Leggi di più: Separa 'app' e 'server' di Express**](/sections/projectstructre/separateexpress.italian.md)
 

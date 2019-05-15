@@ -4,7 +4,7 @@
 
 ### Spiegazione in un paragrafo
 
-L'ultima versione di Express generator è dotata di una pratica che vale la pena seguire - la dichiarazione dell API è separata della configurazione della connessione (porta, protocollo, etc). Questo permette di testare l'API all'intero di un singolo file/processo, senza dover effettuare richieste di rete, con tutti i vantaggi che seguono: rapida esecuzione dei tests e semplice acquisizione di metriche di copertura del codice. Permette anche di distribure la stessa API in maniera più flessibile e con diverse condizione di rete. Bonus: miglior separazione dei rouli e codice più pulito.
+L'ultima versione di Express generator è dotata di una pratica che vale la pena seguire - la dichiarazione dell API è separata della configurazione della connessione (porta, protocollo, etc). Questo permette di testare l'API all'intero di un singolo file/processo, senza dover effettuare richieste di rete, con tutti i vantaggi che seguono: rapida esecuzione dei tests e semplice acquisizione di metriche di copertura del codice. Permette anche di distribure la stessa API in maniera più flessibile e con diverse condizione di rete. Bonus: miglior separazione dei ruoli e codice più pulito.
 
 <br/><br/>
 
