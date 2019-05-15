@@ -94,13 +94,13 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <br/><br/>
 
-## ![✔] 1.4 Separate Express 'app' and 'server'
+## ![✔] 1.4 Separa 'app' e 'server' di Express
 
-**TL;DR:** Avoid the nasty habit of defining the entire [Express](https://expressjs.com/) app in a single huge file - separate your 'Express' definition to at least two files: the API declaration (app.js) and the networking concerns (WWW). For even better structure, locate your API declaration within components
+**TL;DR:** Evita la bruttissima abitudine di definire l'intera app [Express](https://expressjs.com/) in un unico, gigantesco file - separa la definizione di 'Express' in almeno due files: la dichiarazione dell'API (app.js) e tutto quello che riguarda la connessione (WWW). Per una struttura ancora migliore, posiziona la dichiarazione dell'API all'interno dei componenti
 
-**Otherwise:** Your API will be accessible for testing via HTTP calls only (slower and much harder to generate coverage reports). It probably won't be a big pleasure to maintain hundreds of lines of code in a single file
+**Altrimenti:** La tua API sarà accessibile, per il testing, solamente attraverso chiamate HTTP (generare resoconti di copertura diventa così più lento e decisamente più complicato). Molto probabilmente non sarà nemmeno piacevole mantere centinaia di linee di codice in un solo file
 
-🔗 [**Read More: separate Express 'app' and 'server'**](/sections/projectstructre/separateexpress.md)
+🔗 [**Leggi di più: Separa 'app' e 'server' di Express**](/sections/projectstructre/separateexpress.italian.md)
 
 <br/><br/>
 
