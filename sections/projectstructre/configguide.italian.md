@@ -4,9 +4,9 @@
 
 ### Spiegazione in un paragrafo
 
-Gestendo dati di configurazione, molte fattori possono infastidire e rallentare:
+Gestendo dati di configurazione, molti fattori possono infastidire e rallentare:
 
-1. settare tutte le chiavi usando variabili d'ambiente diventa veramente noioso quando è necessario iniettare 100 chiavi (invece che salvarle in un file di configurazione), nonostante questo, utilizzare esclusivamente file non permette agli amministratori DevOps di modificare il comportamento dell'applicazione senza modificare il codice. Una soluzione efficace per gestire la configurazione, deve combinare sia file che la sovrascrittura di alcuni valori con variabili di processo.
+1. settare tutte le chiavi usando variabili d'ambiente diventa veramente noioso quando è necessario iniettare 100 chiavi (invece che salvarle in un file di configurazione), nonostante questo, utilizzare esclusivamente file non permette agli amministratori DevOps di modificare il comportamento dell'applicazione senza modificare il codice. Una soluzione efficace per gestire la configurazione, deve combinare sia file che la sovrascrittura di alcuni valori con variabili di processo/ambiente.
 
 2. quando si specificanp tutte le chiavi in un semplice JSON, diventa frustrante trovare e modificare le chiavi quando la lista diventa grande. Un file JSON organizzato in gerarchia e raggrupato in sezioni può risolvere questi problemi, in più, alcune librerie permettono di salvare la configurazione in diversi file e unirli a run time. Guarda l'esempio in basso.
 
