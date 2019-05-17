@@ -1,9 +1,8 @@
-# Usa Async-Await o promises per la gestione degli errori asincroni
+# Usa Async-Await o le promises per la gestione degli errori asincroni
 
 ### Spiegazione in un paragrafo
 Le callback non scalano correttamente poiché la maggior parte dei programmatori non le conosce. Costringono a controllare gli errori dappertutto, a gestire il pessimo codice e rendono difficile ragionare sul flusso di esecuzione.
-Librerie di Promise come BlueBird, async e Q 
-Promise libraries like BlueBird, async, and Q impacchettano uno stile di codice standard usando RETURN e THROW per controllare il flusso del programma. Più nello specifico, loro supportano lo stile preferito di gestione degli errori tramite try-catch  che consente di liberare il percorso del codice principale dagli errori in ogni funzione
+Librerie di Promise come BlueBird, async e Q impacchettano uno stile di codice standard usando RETURN e THROW per controllare il flusso del programma. Più nello specifico, loro supportano lo stile preferito di gestione degli errori tramite try-catch  che consente di liberare il flusso del codice principale dagli errori in ogni funzione
 
 ### Esempio di codice - usando promises per gestire gli errori
 
