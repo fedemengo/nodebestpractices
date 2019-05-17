@@ -106,11 +106,11 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 ## ![✔] 1.5 Use environment aware, secure and hierarchical config
 
-**TL;DR:** A perfect and flawless configuration setup should ensure (a) keys can be read from file AND from environment variable (b) secrets are kept outside committed code (c) config is hierarchical for easier findability. There are a few packages that can help tick most of those boxes like [rc](https://www.npmjs.com/package/rc), [nconf](https://www.npmjs.com/package/nconf) and [config](https://www.npmjs.com/package/config)
+**TL;DR** Un setup perfetto e impeccabile di configurazione deve garantire che (a) le chiavi possano essere lette da file e da variabili d'ambiente, (b) i segreti siano mantenuti al di fuori del codice committato e (c) la configurazione sia gerarchica per semplificare la reperibilità. Ci sono alcuni pacchetti che aiutano in molte di queste pratiche, ad esempio [rc](https://www.npmjs.com/package/rc), [nconf](https://www.npmjs.com/package/nconf) e [config](https://www.npmjs.com/package/config)
 
-**Otherwise:** Failing to satisfy any of the config requirements will simply bog down the development or devops team. Probably both
+**Altrimenti:** Non garantendo una qualsiasi di queste specifiche impedirai al team di sviluppo o di devops di esserre efficienti. Probabilmente entrambi.
 
-🔗 [**Read More: configuration best practices**](/sections/projectstructre/configguide.md)
+🔗 [**Leggi di più: Pratiche per la configurazione**](/sections/projectstructre/configguide.italian.md)
 
 <br/><br/><br/>
 
