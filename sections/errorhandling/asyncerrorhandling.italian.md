@@ -47,7 +47,7 @@ getData(someParameter, function(err, result) {
 
  Dal blog gosquared.com
 
- > ………Il metodo promesse è molto più compatto, più chiaro e veloce da scrivere. Se si verifica un errore o un'eccezione all'interno di una delle operazioni, viene gestito dal singolo gestore di .catch(). Avere questo unico posto per gestire tutti gli errori significa che non è necessario scrivere il controllo degli errori per ogni fase del lavoro.
+ > ………Il metodo delle promises è molto più compatto, più chiaro e veloce da scrivere. Se si verifica un errore o un'eccezione all'interno di una delle operazioni, viene gestito dal singolo gestore di .catch(). Avere questo unico posto per gestire tutti gli errori significa che non è necessario scrivere il controllo degli errori per ogni fase del lavoro.
 
 ### Nota da un Blog: "Le Promises sono native in ES6, possono essere usate con generatori"
 
