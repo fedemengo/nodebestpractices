@@ -118,13 +118,13 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 # `2. Pratiche Di Gestione Degli Errori`
 
-## ![✔] 2.1 Use Async-Await or promises for async error handling
+## ![✔] 2.1 Usa Async-Await o le promises per la gestione degli errori asincroni
 
-**TL;DR:** Handling async errors in callback style is probably the fastest way to hell (a.k.a the pyramid of doom). The best gift you can give to your code is using a reputable promise library or async-await instead which enables a much more compact and familiar code syntax like try-catch
+**TL;DR:** Gestire gli errori asincroni in stile callback è probabilmente la via più veloce per l'inferno (a.k.a la piramide della sventura). Il miglior regalo che tu possa fare al tuo codice è, invece, usare una rinomata libreria di promises o di async-await che permetta una sintassi del codice più compatta e familiare come il try-catch. 
 
-**Otherwise:** Node.js callback style, function(err, response), is a promising way to un-maintainable code due to the mix of error handling with casual code, excessive nesting, and awkward coding patterns
+**Altrimenti:** Lo stile di callback di Node.js, function(err, response), è un promettente modo per rendere il codice non manutenibile a causa del mix di gestione degli errori con codice casuale, nidificazione eccessiva e pattern di codifica scomodi
 
-🔗 [**Read More: avoiding callbacks**](/sections/errorhandling/asyncerrorhandling.md)
+🔗 [**Leggi di più: evita callbacks**](/sections/errorhandling/asyncerrorhandling.italian.md)
 
 <br/><br/>
 
