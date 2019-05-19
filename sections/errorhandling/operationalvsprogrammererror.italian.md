@@ -2,8 +2,7 @@
 
 ### Spiegazione in un paragrafo
 Distiguere i seguenti due tipi di errore minimizzarà il tempo di inattività della tua app e aiuterà ad evitare strani bug:
-Errori operativi si riferiscono a situazioni nelle quali tu puoi capire cosa accade e l'impatto che esso ha
-- ad esempio, una query a qualche servizio HTTP si blocca per qualche problema di connessione. D'altra parte, gli errori dei programmatori si riferiscono a casi in cui tu non hai idea del perchè ed a volte da dove gli errori provengano - potrebbe essere una riga di codice che prova a leggere da un valore indefinito o un pool di connessioni DB che perde memoria. Gli errori operativi sono relativamente semplici da gestire - solitamente loggare l'errore è sufficiente. Le cose si fanno più dure quando si presenta un errore di un programmatore, l'applicazione può passare ad uno stato inconsistente e non c'è niente di meglio che tu possa fare se non riavviare gentilmente l'applicazione. 
+Errori operativi si riferiscono a situazioni nelle quali tu puoi capire cosa accade e l'impatto che esso ha - ad esempio, una query a qualche servizio HTTP si blocca per qualche problema di connessione. D'altra parte, gli errori dei programmatori si riferiscono a casi in cui tu non hai idea del perchè ed a volte da dove gli errori provengano - potrebbe essere una riga di codice che prova a leggere da un valore indefinito o un pool di connessioni DB che perde memoria. Gli errori operativi sono relativamente semplici da gestire - solitamente loggare l'errore è sufficiente. Le cose si fanno più dure quando si presenta un errore di un programmatore, l'applicazione può passare ad uno stato inconsistente e non c'è niente di meglio che tu possa fare se non riavviare gentilmente l'applicazione. 
 
 ### Esempio di codice – fare un errore operativo (verificato)
 
