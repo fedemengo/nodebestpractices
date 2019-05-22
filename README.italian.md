@@ -138,13 +138,13 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <br/><br/>
 
-## ![✔] 2.3 Distinguish operational vs programmer errors
+## ![✔] 2.3 Distingui gli errori operativi da quelli dei programmatori
 
-**TL;DR:** Operational errors (e.g. API received an invalid input) refer to known cases where the error impact is fully understood and can be handled thoughtfully. On the other hand, programmer error (e.g. trying to read undefined variable) refers to unknown code failures that dictate to gracefully restart the application
+**TL;DR:** Errori operativi (ad esempio, l'API ha ricevuto un input non valido) si riferiscono a casi noti in cui l'impatto dell'errore è completamente compreso e può essere gestito con attenzione. D'altra parte, l'errore del programmatore (ad es. Il tentativo di leggere una variabile non definita) si riferisce a errori di codice sconosciuti che impongono di riavviare l'applicazione
 
-**Otherwise:** You may always restart the application when an error appears, but why let ~5000 online users down because of a minor, predicted, operational error? the opposite is also not ideal – keeping the application up when an unknown issue (programmer error) occurred might lead to an unpredicted behavior. Differentiating the two allows acting tactfully and applying a balanced approach based on the given context
+**Altrimenti:** Puoi riavviare sempre l'applicazione quando viene visualizzato un errore, ma perché lasciare ~5000 utenti in linea a causa di un errore operativo minore previsto? anche l'opposto non è l'ideale: mantenere l'applicazione quando si è verificato un problema sconosciuto (errore del programmatore) potrebbe comportare un comportamento imprevedibile. La differenziazione dei due permette di agire con tatto e di applicare un approccio equilibrato basato sul contesto dato
 
-🔗 [**Read More: operational vs programmer error**](/sections/errorhandling/operationalvsprogrammererror.md)
+🔗 [**Leggi di più: errori operativi vs errori dei programmatori**](/sections/errorhandling/operationalvsprogrammererror.italian.md)
 
 <br/><br/>
 
