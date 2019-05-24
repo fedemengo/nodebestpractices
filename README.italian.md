@@ -132,7 +132,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 **TL;DR:** Molti generano errori come stringhe o come tipi personalizzati - questo complica la logica di gestione degli errori e l'interoperabilità tra moduli. Sia che rifiuti una promise, generi un eccezione o emetti un errore - usare soltanto l'oggetto built-in Error aumenta l'uniformità e previene la perdità di informazioni.
 
-**Altrimenti:** Quando invochi certi componenti, non essendo sicuro del tipo di errori che ritornano - rende molto più complicato gestire gli errori in maniera adeguata. Ancora peggio, usare tipi personalizzati per descrivere gli errori può portare alla perdità di informazioni critiche relative all'errore stesso, come ad esempio lo stack trace!
+**Altrimenti:** Quando invochi certi componenti, non essere sicuro del tipo di errori che ritornano - rende molto più complicato gestire gli errori in maniera adeguata. Ancora peggio, usare tipi personalizzati per descrivere gli errori può portare alla perdità di informazioni critiche relative all'errore stesso, come ad esempio lo stack trace!
 
 🔗 [**Leggi di più: usare l'oggetto built-in Error**](/sections/errorhandling/useonlythebuiltinerror.italian.md)
 
