@@ -104,7 +104,7 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 
 <br/><br/>
 
-## ![✔] 1.5 Use environment aware, secure and hierarchical config
+## ![✔] 1.5 Utilizza la configurazione compatibile con l'ambiente, sicura e gerarchica
 
 **TL;DR** Un setup perfetto e impeccabile di configurazione deve garantire che (a) le chiavi possano essere lette da file e da variabili d'ambiente, (b) i segreti siano mantenuti al di fuori del codice committato e (c) la configurazione sia gerarchica per semplificare la reperibilità. Ci sono alcuni pacchetti che aiutano in molte di queste pratiche, ad esempio [rc](https://www.npmjs.com/package/rc), [nconf](https://www.npmjs.com/package/nconf) e [config](https://www.npmjs.com/package/config)
 
