@@ -149,12 +149,10 @@ Anche se questo è un modello di sviluppo molto comune, gli sviluppatori di API 
 <br/><br/>
 
 ## ![✔] 2.4 Handle errors centrally, not within an Express middleware
+**TL;DR:** La logica  di gestione degli errori come inviare una mail all'admin e logging dovrebbe essere incapsulata in un oggetto dedicato e centralizzato che tutti gli endpoint (es. Express middleware, cron jobs, unit-testing) e chiamato quando si verifica un errore. 
+**Altrimenti:** Non gestire gli errori in un singolo oggetto porta a codice duplicato e probabilmente ad una gestione degli errori impropria. 
 
-**TL;DR:** Error handling logic such as mail to admin and logging should be encapsulated in a dedicated and centralized object that all endpoints (e.g. Express middleware, cron jobs, unit-testing) call when an error comes in
-
-**Otherwise:** Not handling errors within a single place will lead to code duplication and probably to improperly handled errors
-
-🔗 [**Read More: handling errors in a centralized place**](/sections/errorhandling/centralizedhandling.md)
+🔗 [**Leggi di più: gestione degli errori in un posto centralizzato**](/sections/errorhandling/centralizedhandling.italian.md)
 
 <br/><br/>
 
